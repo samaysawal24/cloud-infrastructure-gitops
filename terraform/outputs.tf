@@ -17,3 +17,4 @@ output "rds_endpoint" {
   description = "PostgreSQL primary database connection endpoint"
   value       = aws_db_instance.postgres.endpoint
 }
+

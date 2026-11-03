@@ -27,3 +27,4 @@ variable "db_instance_class" {
   type        = string
   default     = "db.r6g.xlarge"
 }
+

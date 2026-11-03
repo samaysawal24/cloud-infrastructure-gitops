@@ -5,7 +5,7 @@
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-1.29%2B-326CE5.svg?logo=kubernetes)](https://kubernetes.io)
 [![ArgoCD](https://img.shields.io/badge/GitOps-ArgoCD-EF7B4D.svg?logo=argo)](https://argo-cd.readthedocs.io)
 [![AWS](https://img.shields.io/badge/Cloud-AWS_EKS_%7C_RDS-FF9900.svg?logo=amazon-aws)](https://aws.amazon.com)
-[![Author](https://img.shields.io/badge/Author-smay-orange.svg)](https://github.com/samaysawal24)
+[![Author](https://img.shields.io/badge/Author-Samay_Sawal-orange.svg)](https://github.com/samaysawal24)
 
 Production Infrastructure-as-Code (IaC) and declarative Kubernetes GitOps automation. Provisions a high-availability AWS VPC across multiple Availability Zones, managed AWS EKS Kubernetes clusters, encrypted Multi-AZ RDS PostgreSQL instances, ingress controller with automated Let's Encrypt TLS certificates, and self-healing ArgoCD sync manifests.
 
@@ -109,3 +109,4 @@ kubectl apply -f kubernetes/argocd/application.yaml
 - **Author:** smay ([@samaysawal24](https://github.com/samaysawal24))
 - **Email:** cricketworldsamay@gmail.com
 - **License:** Released under the [MIT License](LICENSE).
+

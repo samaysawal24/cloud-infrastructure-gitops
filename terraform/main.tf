@@ -14,7 +14,7 @@ provider "aws" {
     tags = {
       Environment = var.environment
       ManagedBy   = "Terraform"
-      Author      = "smay"
+      Author      = "Samay Sawal"
       Project     = "cloud-infrastructure-gitops"
     }
   }
@@ -103,3 +103,4 @@ resource "aws_db_instance" "postgres" {
   storage_encrypted      = true
   deletion_protection    = true
 }
+

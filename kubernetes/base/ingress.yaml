@@ -22,3 +22,4 @@ spec:
                 name: api-microservice-svc
                 port:
                   number: 80
+
